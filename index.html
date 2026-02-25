@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ranjeet Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+  <h2 class="logo">Ranjeet Jadhav</h2>
+
+  <nav>
+    <a onclick="openSection('about')" id="aboutLink">About</a>
+    <a onclick="openSection('projects')" id="projectLink">Projects</a>
+    <a onclick="openSection('contact')" id="contactLink">Contact</a>
+     </nav>
+
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="hero">
+
+  <div class="hero-content">
+
+    <img src="profile.jpeg" class="profile-img">
+
+    <h1>I am <span id="typing"></span></h1>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="content" id="about">
+
+  <button class="back" onclick="goBack()">⬅ Back</button>
+
+  <h2>About Me</h2>
+
+  <div class="about-container">
+
+    <p class="about-intro">
+      Hello! I'm <span class="highlight">Ranjeet Jadhav</span>, a passionate
+      Computer Science Engineering student at MIT World Peace University, Pune.
+      I love building real-world applications using Java, Web Development and AI.
+    </p>
+
+    <div class="about-grid">
+
+      <div class="about-box">
+        <h3>🎓 Education</h3>
+        <p>B.Tech CSE (2023 – 2027)</p>
+        <p>MIT-WPU, Pune</p>
+      </div>
+
+      <div class="about-box">
+        <h3>🎯 Career Objective</h3>
+        <p>
+          To become a skilled software developer and work on innovative
+          projects in AI and full stack development.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h3>💻 Technical Interests</h3>
+        <p>Java Development</p>
+        <p>Web Development</p>
+        <p>Artificial Intelligence</p>
+      </div>
+
+      <div class="about-box">
+        <h3>⚡ Strengths</h3>
+        <p>Problem Solving</p>
+        <p>Quick Learner</p>
+        <p>Team Collaboration</p>
+      </div>
+
+    </div>
+
+    <a href="#" class="resume-btn">⬇ Download Resume</a>
+
+  </div>
+
+</section>
+
+
+<!-- PROJECTS -->
+<section class="content" id="projects">
+  <button class="back" onclick="goBack()">⬅ Back</button>
+  <h2>Projects</h2>
+  <div id="githubProjects" class="project-container"></div>
+</section>
+
+
+<!-- CONTACT -->
+<section class="content" id="contact">
+  <button class="back" onclick="goBack()">⬅ Back</button>
+  <h2>Contact</h2>
+  <p>Email: ranjeetdadajadhav132@gmail.com</p>
+  <p>LinkedIn: linkedin.com/in/ranjeet-jadhav</p>
+  <p>Phone: +91 7650000000</p>
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
